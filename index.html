@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja de Cosméticos</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #d21bd8;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f8bbd0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #880e7e;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      flex: 1;
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .produto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .produto:hover {
+      transform: scale(1.05);
+    }
+
+    .produto img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .produto h3 {
+      margin: 10px 0 5px;
+      color: #c218ab;
+    }
+
+    .produto p {
+      font-size: 14px;
+      color: #444;
+      flex-grow: 1;
+    }
+
+    .produto button {
+      background-color: #d81bc8;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    footer {
+      background-color: #840e88;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Essência Capilar</h1>
+    <p>Realce sua beleza com nossos produtos incríveis!</p>
+  </header>
+
+  <nav>
+    <a href="file:///home/richardr/%C3%81rea%20de%20Trabalho/gabi%20site/inicio.html">Início</a>
+    <a href="file:///home/richardr/%C3%81rea%20de%20Trabalho/gabi%20site/contato.html">Contato</a>
+    <a href="file:///home/richardr/%C3%81rea%20de%20Trabalho/gabi%20site/carrinho.html">Carrinho</a>
+  </nav>
+
+  <div class="container">
+    <div class="produto">
+      <img src="imagem site1 (1).webp" alt="shampoo Hidratante">
+      <h3>Shampoo Hidratante Avon</h3>
+      <p>Hidratação profunda para todos os tipos de cabelos.</p>
+      <button>Comprar - R$29,90</button>
+    </div>
+
+    <div class="produto">
+      <img src="imagem2creme.jpg" alt="creme cabelo">
+      <h3>Creme para pentear Salon Line</h3>
+      <p>Definição e Memorização para os Cachos.</p>
+      <button>Comprar - R$39,90</button>
+    </div>
+
+    <div class="produto">
+      <img src="Condicionador-Tresemme-Brilho-Lamelar-–-400ml.jpg" alt="Perfume Floral">
+      <h3>Condicionador TRESemme</h3>
+      <p>Aroma suave e marcante perfeito para seus cabelos.</p>
+      <button>Comprar - R$59,90</button>
+    </div>
+
+    <div class="produto">
+      <img src="oleo-de-cabelo.png" alt="Batom Rosa">
+      <h3>Óleo de cabelo OX</h3>
+      <p>Óleo perfeito para Hidratação.</p>
+      <button>Comprar - R$29,90</button>
+    </div>
+
+    <div class="produto">
+      <img src="mascara-desmaia-cabelo.webp" alt="Batom Rosa">
+      <h3>Mascara desmaia Cabelo Chikas</h3>
+      <p>Este produto é o que você procura</p>
+      <button>Comprar - R$29,90</button>
+    </div>
+
+    <div class="produto">
+      <img src="MED_elseve-mascara-tratamento-capilar-hidra-hialurnico-537279.webp" alt="Batom Rosa">
+      <h3>Mascará</h3>
+      <p>Batom matte de longa duração.</p>
+      <button>Comprar - R$29,90</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Essência Capilar - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
